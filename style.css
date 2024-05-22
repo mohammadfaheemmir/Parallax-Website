@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1{
+    background-image: url(/img1.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.pimg2{
+    background-image: url(/img4.jpg);
+    height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* .pimg2{
+    background-image: url(/ProjectsUsingHTML7CSS/ParallaxWebsite/img2.jpg);
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+} */
+
+.pimg3{
+    background-image: url(/img3.jpg);
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.pimg5{
+    background-image: url(/img5.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+.ptext{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-transform: uppercase;
+}
+
+.textbg{
+    background-color: #000;
+    padding: 10px;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light{
+    background:#282e34;
+    color: #ddd;
+}
+
+.twotext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.section-dark{
+    background: #282e34;
+    color: #fff;
+}
+
+h2{
+    font-size:30px;
+    padding: 20px;
+    color: chocolate;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
